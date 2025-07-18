@@ -3,6 +3,7 @@
 - vue 와 tailwind css
 - carousel = vue3-carousel 사용
 - daisyui v5 와 v2.51.6 과 색상 차이로 2.51.6 사용
+  -React Shop = https://react-shop-seven-blush.vercel.app/
 
 ##
 
@@ -21,4 +22,4 @@
 문제: 상세 페이지에서 다른 카테고리 페이지 로 이동할 때 데이터가 제대로 업데이트되지 않고 화면이 바뀌지 않는 현상 발생
 
 - 라우트 경로 설정 으로 인해 경로 인식 문제 발생
-  해결 : router-link:to="menu.key" => router-link :to="`/${menu.key}`" 변경하여 해결 됨
+  해결 : `router-link:to="menu.key" => router-link :to="/${menu.key}`" 변경하여 해결 됨
