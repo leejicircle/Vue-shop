@@ -55,7 +55,6 @@ function handleKeyDown(e: KeyboardEvent) {
   } else if (e.key === "Enter" && activeIndex.value >= 0) {
     handleSelect(list[activeIndex.value].id);
   }
-  console.log("키보드 테스트", activeIndex.value);
 }
 watch(activeIndex, async (index) => {
   await nextTick();
@@ -81,11 +80,11 @@ watch(activeIndex, async (index) => {
         viewBox="0 0 24 24"
       >
         <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
           d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-        ></path>
+        />
       </svg>
     </button>
 

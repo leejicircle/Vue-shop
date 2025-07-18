@@ -10,7 +10,7 @@ const icons = [visaIcon, masterIcon, ameExIcon, paypalIcon, dinersClubIcon, disc
 </script>
 
 <template>
-  <footer class="footer footer-center p-10 bg-base-200 text-base-content min-h-[288px]">
+  <footer class="footer footer-center p-10 bg-base-200 text-base-content">
     <div>
       <a href="https://zero-base.co.kr/" target="_blank" rel="noopener noreferrer" class="link link-hover">
         제로베이스
