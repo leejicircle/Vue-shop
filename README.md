@@ -3,7 +3,8 @@
 - vue 와 tailwind css
 - carousel = vue3-carousel 사용
 - daisyui v5 와 v2.51.6 과 색상 차이로 2.51.6 사용
-- React Shop = https://react-shop-seven-blush.vercel.app/
+
+## React Shop = https://react-shop-seven-blush.vercel.app/
 
 ##
 
