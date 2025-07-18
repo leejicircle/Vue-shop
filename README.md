@@ -4,8 +4,6 @@
 - carousel = vue3-carousel 사용
 - daisyui v5 와 v2.51.6 과 색상 차이로 2.51.6 사용
 
-## React Shop = https://react-shop-seven-blush.vercel.app/
-
 ##
 
 문제 : daisyui v5사용 시
@@ -24,3 +22,5 @@
 
 - 라우트 경로 설정 으로 인해 경로 인식 문제 발생
   해결 : `router-link:to="menu.key" => router-link :to="/${menu.key}`" 변경하여 해결 됨
+
+## React Shop = https://react-shop-seven-blush.vercel.app/
