@@ -90,6 +90,7 @@ watch(activeIndex, async (index) => {
     </button>
 
     <input
+      type="text"
       ref="searchInputRef"
       v-model="search"
       placeholder="검색"
