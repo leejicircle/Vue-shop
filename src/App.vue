@@ -24,7 +24,7 @@ onMounted(() => {
 
 <template>
   <input type="checkbox" id="side-menu" class="drawer-toggle" ref="hamburger" />
-  <section class="drawer-content">
+  <section class="drawer-content min-h-screen">
     <Nav />
     <section class="main pt-16">
       <RouterView />
