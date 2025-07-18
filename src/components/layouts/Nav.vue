@@ -47,7 +47,7 @@ const themeStore = useThemeStore();
         </li>
       </ul>
 
-      <div class="flex items-center gap-2 px-2">
+      <div class="flex items-center px-2">
         <label class="swap swap-rotate mr-2 sm:mr-4">
           <input type="checkbox" :checked="themeStore.theme === 'light'" @change="themeStore.toggleTheme" />
           <svg
