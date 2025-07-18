@@ -4,7 +4,7 @@
 - carousel = vue3-carousel 사용
 - daisyui v5 와 v2.51.6 과 색상 차이로 2.51.6 사용
 
-##
+## 링크 : https://vue-shop-nine-chi.vercel.app/
 
 문제 : daisyui v5사용 시
 
