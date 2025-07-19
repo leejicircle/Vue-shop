@@ -8,7 +8,7 @@ import { MENUS } from "@/constants/category";
   <section class="pt-4 lg:pt-5 pb-4 lg:pb-8 px-4 xl:px-2 xl:container mx-auto">
     <Breadcrumb :category="MENUS.HOME" :crumb="MENUS.FASHION" />
     <article class="pt-2 lg:pt-4 pb-4 lg:pb-8 px-4 xl:px-2 mb-20 xl:container mx-auto">
-      <ItemList :title="MENUS.FASHION" :limit="12" :key="MENUS.FASHION" />
+      <ItemList :title="MENUS.FASHION" :limit="12" />
     </article>
   </section>
 </template>
