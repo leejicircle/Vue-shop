@@ -11,9 +11,3 @@ export const MENUS = {
   ACCESSORY: "액세서리",
   DIGITAL: "디지털",
 } as const;
-
-export const CART_ITEM = "CART_ITEM";
-
-export type categoryType = (typeof Category)[keyof typeof Category];
-
-export type menuType = (typeof MENUS)[keyof typeof MENUS];
