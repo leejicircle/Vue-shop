@@ -3,6 +3,7 @@
 - vue 와 tailwind css
 - carousel = vue3-carousel 사용
 - daisyui v5 와 v2.51.6 과 색상 차이로 2.51.6 사용
+- pinia-plugin-persistedstate 을 사용하여 저장되어야하는 theme와 장바구니 처리
 
 ## 링크 : https://vue-shop-nine-chi.vercel.app/
 
